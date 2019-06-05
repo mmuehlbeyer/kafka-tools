@@ -1,5 +1,7 @@
 #confluent aliases and variables
 
+#adapt paths to your needs
+##var section######
 export PATH=$PATH:/apps/confluent/bin/
 
 export CONFLUENT_HOME=/apps/confluent/
@@ -7,7 +9,7 @@ export ZKDATA=/data/zookeeper
 export KDATA=/data/kafka
 export KAFKA_CONF=/apps/confluent/etc/kafka
 export KAFKA_LOG=/apps/confluent/logs
-
+#############################################
 alias kconf='cd $KAFKA_CONF'
 alias klog='cd $KAFKA_LOG'
 alias zkdata='cd $ZKDATA'
